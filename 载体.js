@@ -365,7 +365,7 @@ var customGeoJSON = {
 		},
 		"type": "Feature",
 		"properties": {
-			"name": "张华捷"
+			"name": "王俊杰"
 		}
 	}, {
 		"geometry": {
@@ -550,8 +550,9 @@ var customGeoJSON = {
 		},
 		"type": "Feature",
 		"properties": {
-			"name": "王俊杰"
+			"name": "张华捷"
 		}
 	}],
 	"type": "FeatureCollection"
+
 }
