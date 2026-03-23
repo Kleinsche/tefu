@@ -112,7 +112,7 @@ var customGeoJSON = {
 		},
 		"type": "Feature",
 		"properties": {
-			"name": "周康敏"
+			"name": "陈奇安"
 		}
 	}, {
 		"geometry": {
@@ -250,7 +250,7 @@ var customGeoJSON = {
 		},
 		"type": "Feature",
 		"properties": {
-			"name": "周强"
+			"name": "朱文彬"
 		}
 	}, {
 		"geometry": {
@@ -287,7 +287,7 @@ var customGeoJSON = {
 		},
 		"type": "Feature",
 		"properties": {
-			"name": "王振"
+			"name": "张华捷"
 		}
 	}, {
 		"geometry": {
@@ -325,7 +325,7 @@ var customGeoJSON = {
 		},
 		"type": "Feature",
 		"properties": {
-			"name": "陈奇安"
+			"name": "周强"
 		}
 	}, {
 		"geometry": {
@@ -430,7 +430,7 @@ var customGeoJSON = {
 		},
 		"type": "Feature",
 		"properties": {
-			"name": "朱文彬"
+			"name": "王振"
 		}
 	}, {
 		"geometry": {
@@ -550,7 +550,7 @@ var customGeoJSON = {
 		},
 		"type": "Feature",
 		"properties": {
-			"name": "张华捷"
+			"name": "周康敏"
 		}
 	}],
 	"type": "FeatureCollection"
