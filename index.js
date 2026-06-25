@@ -15,17 +15,17 @@ var loca = (window.loca = new Loca.Container({
 var geo = new Loca.GeoJSONSource({
     data: customGeoJSON,
 });
-var colors = [  'rgba(0,0,255,0.5)',
-                'rgba(0,255,0,0.5)',
-                'rgba(255, 0, 34, 0.5)',
-                'rgba(0,100,255,0.5)',
-                'rgba(100,100,100,0.5)',
-                'rgba(0,255,255,0.5)',
-                'rgba(255,255,0,0.5)',
-                'rgba(255,100,0,0.5)',
-                'rgba(100,50,50,0.5)',
-                'rgba(100,0,100,0.5)',
-                'rgba(200,200,100,0.5)',
+var colors = [  'rgba(0,0,255,0.4)',
+                'rgba(255, 0, 200, 0.4)',
+                'rgba(72, 255, 0, 0.4)',
+                'rgba(0,100,255,0.4)',
+                'rgba(100,100,100,0.4)',
+                'rgba(0,255,255,0.4)',
+                'rgba(255,255,0,0.4)',
+                'rgba(255,100,0,0.4)',
+                'rgba(0,0,0,0.4)',
+                'rgba(255, 0, 0, 0.4)',
+                'rgba(100,255,100,0.4)',
                 ];
 var pl = new Loca.PolygonLayer({
     zIndex: 120,
@@ -39,7 +39,7 @@ pl.setStyle({
         //  if (feature.properties.name = "苏虹大楼"){
 
         //  }
-        return colors[index]
+        return colors[index % colors.length]
     },
     // label配置即AMap.LabelMarker的配置
     label: {
@@ -61,7 +61,8 @@ pl.setStyle({
     // 通过labelAltitude控制标注相对于图形顶面的海拔高度，单位同altitude配置项，默认为0
     labelAltitude: 0
 });
-loca.add(pl);
 
+
+loca.add(pl);
 
 
