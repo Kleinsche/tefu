@@ -10,7 +10,7 @@ var map = new AMap.Map('map', {
 AMap.plugin(['AMap.ToolBar'], function() {
     map.addControl(new AMap.ToolBar({
         position: 'RB',           // RB = Right Bottom 右下角
-        offset: new AMap.Pixel(-20, -20)  // 距离右下边缘的偏移
+        offset: new AMap.Pixel(-50, -50)  // 距离右下边缘的偏移
     }));
 });
 
