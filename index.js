@@ -6,6 +6,13 @@ var map = new AMap.Map('map', {
     showBuildingBlock: true,
 });
 
+// 左上角：指南针/旋转控制
+map.addControl(new AMap.ControlBar({
+    position: 'LT',
+    offset: new AMap.Pixel(20, 20),
+    showControlButton: false  // 只保留指南针，不显示旋转/倾斜按钮
+}));
+
 // 在右下角添加缩放按钮
 AMap.plugin(['AMap.ToolBar'], function() {
     map.addControl(new AMap.ToolBar({
